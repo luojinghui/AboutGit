@@ -21,11 +21,9 @@
 
    8、我们已经实现了对文件添加到本地Git仓库中，之前的过程就像一个舞者在上台表演前做的大量准备，充满艰辛，但是又对于追求优美无瑕的舞蹈的期望，对于我们来说，就是对于拥有完美代码的无限期望。现在，我们就需要将我们的本地Git库中的文件拉到舞台上进行演出，首先，我们需要实现远程仓库的连接，使用“git remote add origin +GitHub项目地址”实现。这样，我们就能实现同步。
 
-   9、上一步，我们已经连接了远程仓库，现在，我们就要push我们的Git本地库中的文件，我们需要输入“git push -u origin master”去实现push，若是在此之前你没有配置SSH密钥，那么，系统会提示你输入账户密码，像：      Username for 'https://github.com':(输入用户名)fang-insprion
-
-       password for 'https://fang-insprion@github.com':（输入密码）
-
-       Counting object: 4, done
-       那么，我们自己本地GIt库中的文件已经被同步到GitHubs上了，刷新项目，此时，你会非常的自豪，因为我们的项目文件已经显示在GitHub的网站上了。
+   9、上一步，我们已经连接了远程仓库，现在，我们就要push我们的Git本地库中的文件，我们需要输入“git push -u origin master”去实现push，若是在此之前你没有配置SSH密钥，那么，系统会提示你输入账户密码，像:
+                    username for 'https://github.com'(输入用户名)                        password for 'https://fang-inspring@github.com':(输入密码)
+                    Counting object :4 ,done
+                    那么，我们自己本地GIt库中的文件已经被同步到GitHubs上了，刷新项目，此时，你会非常的自豪，因为我们的项目文件已经显示在GitHub的网站上了。
 
        至此，我们已经完成了一个文件通过Git上传到GItHub网站了，这就像舞者在群光璀璨的舞台上完成了一次优美的舞蹈，光彩夺目，让人赏心悦目。
